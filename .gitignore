@@ -1,0 +1,27 @@
+# Data and Test sets
+data/
+test_set/
+test_plates/
+*.jpg
+*.jpeg
+*.png
+*.mp4
+
+# Allow specific non-data images if needed (you can uncomment and specify here)
+# !demo.jpg
+
+# Virtual Environments
+cv/
+venv/
+env/
+.env/
+
+# Caches and System Files
+__pycache__/
+*.pyc
+.DS_Store
+.huggingface/
+
+# IDEs
+.vscode/
+.idea/
